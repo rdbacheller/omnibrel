@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Omnibrel</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= controller.controller_name %>">
+<div class="container">
+  <h2>Welcome to Omnibrel</h2>
+  <div id="menu_wrapper">
+    <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+      <li><div class="arrow buttonbg"><a href="<%= landing_index_url %>">Home</a></div></li>
+    </ul>
+    <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+      <li><div class="arrow buttonbg"><a href="<%= about_index_url %>">About</a></div>
+        <ul>
+          <li><a title="" href="<%= about_resources_url %>">Resources</a></li>
+        </ul></li>
+    </ul>
+  </div>
+  <p id="center">_________________________________________________________</p>
+  <%= yield %>
+</div>
+<div class="footer">
+  Created By: Ryan Bacheller
+</div>
+</body>
+</html>
