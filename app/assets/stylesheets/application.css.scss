@@ -58,6 +58,7 @@ html {
   border-radius: 15px;
   opacity: 0.85;
   float: none;
+  z-index: 1;
 
   /*h1 {
     margin-top: -150px;
@@ -78,7 +79,7 @@ html {
     color: red;
     text-shadow: -4px 0 darkred, 0 4px darkred, 4px 0 darkred, 0 -4px darkred;
 
-    font-size: 42px;
+    font-size: 38px;
   }
 }
 
@@ -92,6 +93,7 @@ html {
   border-radius: 15px;
   opacity: .85;
   font-size: 18px;
+  z-index: 1;
 
   text-align: center;
   background: papayawhip;
@@ -122,7 +124,301 @@ a:active {
 
 }
 
+
+
 // Here is some menu code. . .
+
+
+// #########################
+// ######## MNMENU #########
+// #########################
+
+._menu {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+}
+
+#_mbmcpebul_wrapper li {
+  float: left;
+}
+
+#_mbmcpebul_wrapper {
+  padding: 0;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0;
+  border-radius: 0;
+  background-color: #000000;
+  box-shadow: none;
+  border-collapse: separate;
+  font-size: 0;
+  line-height: 0;
+}
+
+#_mbmcpebul_wrapper.quirks {
+  margin-bottom: 1px;
+  margin-right: 1px;
+}
+
+#_mbmcpebul_wrapper.quirks #_mbmcpebul_table ul li {
+  width: 100%;
+}
+
+#_mbmcpebul_table {
+  margin: 0px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  padding: 0;
+  line-height: 0px;
+  font-size: 0px;
+  display: inline-block;
+  width: auto;
+}
+
+#_mbmcpebul_table li a {
+  line-height: 17px;
+  font-size: 15px;
+  font-family: Arial,sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px 30px 7px 15px;
+  display: block;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#_mbmcpebul_table li div.buttonbg {
+  height: 31px;
+  width: 59px;
+  line-height: 0;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  text-align: center;
+}
+
+#_mbmcpebul_table li:hover div.buttonbg a, #_mbmcpebul_table li.expanded a.topitem, #_mbmcpebul_table li.active a.topitem,
+#_mbmcpebul_table li.itemhot a.topitem, #_mbmcpebul_table li a:hover {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+
+#_mbmcpebul_table li.expanded div.buttonbg, #_mbmcpebul_table li.active div.buttonbg, #_mbmcpebul_table li.itemhot div.buttonbg, #_mbmcpebul_table li:hover div.buttonbg {
+  background-color: #2E2E2E;
+  box-shadow: none;
+}
+
+#_mbmcpebul_table li.expanded div.buttonbg, #_mbmcpebul_table li.active div.buttonbg, #_mbmcpebul_table li.itemhot div.buttonbg, #_mbmcpebul_table li:hover div.buttonbg {
+  border-color: #800421;
+}
+
+#_mbmcpebul_table ul li a {
+  color: #FFFFFF;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  display: block;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#_mbmcpebul_table ul li:hover > a {
+  color: #FFFFFF;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#_mbmcpebul_table ul li.subexpanded a.subexpanded, #_mbmcpebul_table ul li.subitemhot a.subitemhot, #_mbmcpebul_table ul li a:hover {
+  color: #FFFFFF;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#_mbmcpebul_table ul li:hover, #_mbmcpebul_table ul li.subexpanded, #_mbmcpebul_table ul li.subitemhot {
+  border-color: #DDDDDD;
+  background-color: #6AA700;
+  box-shadow: none;
+}
+
+#_mbmcpebul_table ul {
+  margin: 0;
+  border-style: solid;
+  border-color: #870724;
+  border-width: 0;
+  padding: 0;
+  background: #2E2E2E;
+  font-size: 0;
+  border-radius: 0;
+}
+
+#_mbmcpebul_table ul li a {
+  padding: 7px 15px 7px 13px;
+  text-align: left;
+}
+
+#_mbmcpebul_table ul li.separator {
+  padding: 7px;
+  cursor: default;
+  background: none;
+  box-shadow: none;
+  border-width: 0;
+}
+
+#_mbmcpebul_table ul li.separator div {
+  border-top: 1px solid #EEEEEE;
+  font-size: 0px;
+}
+
+#_mbmcpebul_table ul li {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 0;
+  height: auto;
+  width: auto;
+  text-align: left;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  float: none;
+  margin: 0 0 0px 0;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  background-color: #2E2E2E;
+  display: block;
+}
+
+
+#_mbmcpebul_table ul {
+  box-shadow: 3px 3px 5px -1px #333333;
+}
+
+#_mbmcpebul_table a img {
+  border: none;
+}
+
+#_mbmcpebul_table li {
+  list-style: none;
+  float: left;
+  margin: 0px 1px 1px 0px;
+  padding: 0;
+  float: left;
+  display: inline-block;
+}
+
+#_mbmcpebul_table.css_menu li {
+  position: relative;
+}
+
+#_mbmcpebul_table.css_menu ul li:hover > ul {
+  opacity: 1;
+}
+
+#_mbmcpebul_table.css_menu li:hover > ul {
+  top: 100%;
+  left: 0;
+  right: auto;
+  opacity: 1;
+}
+
+#_mbmcpebul_table.css_menu ul li:hover > ul {
+  top: -0px;
+  left: 100%;
+  right: auto;
+}
+
+#_mbmcpebul_table.css_menu ul {
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  transition-property:opacity;
+  -webkit-transition-property:opacity;
+  -moz-transition-property:opacity;
+  -ms-transition-property:opacity;
+  opacity: 0;
+}
+
+#_mbmcpebul_table ul {
+  position: absolute;
+  top:-99999px;
+  z-index: 4000;
+}
+
+#_mbmcpebul_table ul ul {
+  position: absolute;
+  z-index: 5000;
+}
+
+#_mbmcpebul_table .submenu_arrow {
+  margin-left: 8px;
+}
+
+
+@media screen and (max-width: 500px) {
+  #_mbmcpebul_wrapper:not(.scripted) {
+    text-align: center;
+  }
+
+  #_mbmcpebul_wrapper:not(.scripted) #_mbmcpebul_table li {
+    float: none;
+    vertical-align: top;
+  }
+}
+
+#_mbmcpebul_wrapper.centeritems {
+  text-align: center;
+}
+
+#_mbmcpebul_wrapper.centeritems #_mbmcpebul_table li {
+  float: none;
+  vertical-align: top;
+}
+#_mbmcpebul_table div.arrow {
+  background-image: url(ebab_mbmcp_d.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 100%;
+}
+
+#_mbmcpebul_table ul li a.with_arrow {
+  background-image: url(ebab_mbmcp_c.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 19px;
+}
+
+#_mbmcpebul_table li a.button_2, #_mbmcpebul_table li div a.button_2 {
+  padding-right: 15px;
+}
+
+
+
+// #########################
+// ######## NAVBAR #########
+// #########################
 
 #mbmcpebul_wrapper.quirks {
   margin-bottom: 1px;
