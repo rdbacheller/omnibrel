@@ -58,4 +58,67 @@
   a {
     padding: 0;
   }
+
+  .cooper1 {
+    position: relative;
+    float: left;
+    width: 225px;
+    min-width: 225px;
+    min-height: 125px;
+    margin: 0;
+    border-radius: 15px;
+    background-size: 100% 100%;
+
+    border: 1px solid orangered;
+    background-image: url(image_path("angel.jpg"));
+
+    p {
+      color: white;
+    }
+  }
+
+  .cooper2 {
+    position: relative;
+    float: left;
+    width: 225px;
+    min-width: 225px;
+    min-height: 125px;
+    margin: 0;
+    border-radius: 15px;
+
+    border: 1px solid orangered;
+    background-color: rgba(128,0,128,0.55);
+
+    p {
+      font-size: 14px;
+      color: white;
+    }
+  }
+
+  .cooper3 {
+    position: relative;
+    float: left;
+    width: 225px;
+    min-width: 225px;
+    min-height: 125px;
+    margin: 0;
+    border-radius: 15px;
+    background-size: cover;
+
+    border: 1px solid orangered;
+    background-image: url(image_path("bkg.jpg"));
+
+
+    p {
+      color: white;
+    }
+  }
+
+  audio {
+    width: 225px;
+    min-width: 225px;
+    border-radius: 15px;
+
+    background-color: orange;
+  }
 }

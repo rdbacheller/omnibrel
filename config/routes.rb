@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'apply/content'
+
+  get 'apply/crew'
+
   get 'about/resources'
 
   get 'resources/index'
