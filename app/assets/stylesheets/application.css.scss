@@ -49,14 +49,15 @@ html {
 .container {
   position: relative;
   margin: 0 auto;
-  margin-top: 50px;
-  background: papayawhip;
+  margin-top: 35px;
+  background-color: rgba(0,0,0,0.75);
+  //background-image: url(image_path("_bkgrnd_.jpg"));
+  //background-size: 100% 100%;
   width: 750px;
   min-width: 750px;
-  min-height: 1000px;
+  min-height: 800px;
   border: 6px solid orangered;
   border-radius: 15px;
-  opacity: 0.85;
   float: none;
   z-index: 1;
 
@@ -87,7 +88,7 @@ html {
   position: relative;
   width: 750px;
   min-width: 750px;
-  min-height: 25px;
+  min-height: 20px;
   margin: 10px auto;
   padding: 5px;
   border-radius: 15px;
@@ -96,9 +97,15 @@ html {
   z-index: 1;
 
   text-align: center;
-  background: papayawhip;
+  background: #000000;
   border: 6px solid purple;
   float: none;
+
+  p {
+    margin: 0 auto;
+
+    color: white;
+  }
 }
 
 div#menu_wrapper {
@@ -106,7 +113,7 @@ div#menu_wrapper {
 }
 
 a:link {
-  color: black;
+  color: indigo;
   font-style: italic;
   font-size: 22px;
 }
@@ -121,10 +128,59 @@ a:hover {
 }
 
 a:active {
-
+  color: darkred
 }
 
+.cooper1 {
+  position: relative;
+  float: left;
+  width: 225px;
+  min-width: 225px;
+  min-height: 125px;
+  margin: 0;
+  border-radius: 15px;
 
+  border: 1px solid orangered;
+  background-color: rgba(128,0,128,0.65);
+
+  p {
+    color: white;
+  }
+}
+
+.cooper2 {
+  position: relative;
+  float: left;
+  width: 225px;
+  min-width: 225px;
+  min-height: 125px;
+  margin: 0;
+  border-radius: 15px;
+
+  border: 1px solid orangered;
+  background-color: rgba(128,0,128,0.55);
+
+  p {
+    color: white;
+  }
+}
+
+.cooper3 {
+  position: relative;
+  float: left;
+  width: 225px;
+  min-width: 225px;
+  min-height: 125px;
+  margin: 0;
+  border-radius: 15px;
+
+  border: 1px solid orangered;
+  background-color: rgba(128,0,128,0.65);
+
+  p {
+    color: white;
+  }
+}
 
 // Here is some menu code. . .
 
@@ -437,6 +493,7 @@ a:active {
   font-size: 0px;
   display: inline;
   width: auto;
+  opacity: 0.75;
 }
 
 #mbmcpebul_table li a {
