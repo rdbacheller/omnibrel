@@ -41,7 +41,8 @@
 
 html {
   background: black;
-  background-image: url(image_path("bkgrnd.jpg"));
+  //background-image: url(image_path("bkgrnd.jpg"));
+  background-image: image-url("bkgrnd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
