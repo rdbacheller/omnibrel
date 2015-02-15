@@ -7,20 +7,20 @@
 
   h2 {
     text-align: center;
-    font-style: italic;
-    font-family: "KingQueen";
-    margin: 0;
-    color: red;
-    text-shadow: -4px 0 darkred, 0 4px darkred, 4px 0 darkred, 0 -4px darkred;
+    font-size: 48px;
+    font-family: "Marker Felt";
 
-    font-size: 42px;
+    color: black;
+    text-shadow: -2px 0 #FFF, 0 2px #FFF, 2px 0 #FFF, 0 -2px #FFF ;
   }
 
   p {
     padding: 0 10px 0 10px;
     font-size: 18px;
-    font-weight: 600;
-    color: black;
+    font-weight: 800;
+
+    color: white;
+    text-shadow: -1px 0 #000, 0px 1px #000, 1px 0 #000, 0 -1px #000;
   }
 
   #divider {
@@ -47,12 +47,25 @@
     text-align: center;
   }
 
-  p#sunken {
-    background-color: rgba(255,100,0,0.65);
-    border: 6px solid purple;
+  div#sunken {
+    background-color: rgba(255,100,0,0.45);
+    border: 3px solid purple;
     border-radius: 15px;
     color: white;
     padding: 10px;
+
+    .service {
+      #name {
+        font-size: 24px;
+      }
+
+      padding: 0 10px 0 10px;
+      font-size: 18px;
+      font-weight: 800;
+
+      color: white;
+      text-shadow: -1px 0 #000, 0px 1px #000, 1px 0 #000, 0 -1px #000;
+    }
   }
 
   a {
@@ -62,10 +75,10 @@
   .cooper1 {
     position: relative;
     float: left;
-    width: 225px;
-    min-width: 225px;
+    width: 308px;
+    min-width: 300px;
     min-height: 125px;
-    margin: 0;
+    margin: auto;
     border-radius: 15px;
     background-size: 100% 100%;
 
@@ -80,10 +93,10 @@
   .cooper2 {
     position: relative;
     float: left;
-    width: 225px;
-    min-width: 225px;
+    width: 308px;
+    min-width: 300px;
     min-height: 125px;
-    margin: 0;
+    margin: auto;
     border-radius: 15px;
 
     border: 1px solid orangered;
@@ -98,10 +111,10 @@
   .cooper3 {
     position: relative;
     float: left;
-    width: 225px;
-    min-width: 225px;
+    width: 308px;
+    min-width: 300px;
     min-height: 125px;
-    margin: 0;
+    margin: auto;
     border-radius: 15px;
     background-size: cover;
 

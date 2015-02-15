@@ -50,11 +50,11 @@ html {
 .container {
   position: relative;
   margin: 0 auto;
-  margin-top: 35px;
+  margin-top: 50px;
   background-color: rgba(0,0,0,0.75);
   //background-image: url(image_path("_bkgrnd_.jpg"));
   //background-size: 100% 100%;
-  width: 750px;
+  width: 1000px;
   min-width: 750px;
   min-height: 800px;
   border: 6px solid orangered;
@@ -72,7 +72,9 @@ html {
     font-family: "Marker Felt";
     color: orange;
   }*/
+}
 
+#banner {
   h2 {
     text-align: center;
     font-style: italic;
@@ -110,11 +112,13 @@ html {
 }
 
 div#menu_wrapper {
-  padding: 0 0 0 250px;
+  //padding: 0 0 0 250px;
+  margin: auto;
+  width: 37%;
 }
 
 a:link {
-  color: indigo;
+  color: white;
   font-style: italic;
   font-size: 22px;
 }
