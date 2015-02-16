@@ -21,5 +21,6 @@ module Omnibrel
     # config.i18n.default_locale = :de
 
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    config.serve_static_assets = true
   end
 end
