@@ -1,0 +1,34 @@
+// Place all the styles related to the Construction controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main {
+  background: none;
+
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Marker Felt";
+
+    color: black;
+    text-shadow: -2px 0 #FFF, 0 2px #FFF, 2px 0 #FFF, 0 -2px #FFF ;
+  }
+
+  p {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+  }
+
+  #body {
+    margin: 0 50px;
+    border: darkred 5px solid;
+    border-radius: 15px;
+    padding: 15px;
+
+    background-color: rgba(255, 100, 0, .55);
+  }
+}

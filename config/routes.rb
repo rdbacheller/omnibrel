@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'mailing/maillist'
+
+  get 'mailing/newsletter'
+
+  get 'construction/heavy'
+
+  get 'construction/medium'
+
+  get 'construction/light'
+
+  get 'construction/minimal'
+
+  get 'construction/none'
+
   get 'apply/content'
 
   get 'apply/crew'

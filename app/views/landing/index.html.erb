@@ -23,17 +23,41 @@
         until terms are reached between said user and Omnibrel.
       </p>-->
     <div id="sunken">
+      <!--
+            # This is for site development;
+            # disable and remove this code once base-level-development ::
+            # phase-0 development is finished and the site is no longer :
+            # "Under Construction"
+            #############################################################
+            RDB
+       -->
+      <div class="construction">
+        <div id="barrier">
+        <img src="<%= image_url("sqr_warning.png") %>" />
+        <h1>This Site Is Currently Under
+          '<a href="<%= construction_heavy_url %>"><%= construction_level = "Heavy Construction" %></a>'
+        </h1>
+        <img src="<%= image_url("sqr_warning.png") %>" />
+        </div>
+        <div id="backer"></div>
+      </div>
+
       <h2>What is Omnibrel?</h2>
       <p>
-        Omnibrel is a content production group with one mission: to provide a hub for small, entertainment oriented services
-        such as blogs, podcasts, video series, and anything else we feel other people, mainly our user-base, will enjoy.
-        At present Omnibrel consists of two sites:
-        &nbsp&nbsp&nbsp&nbsp&nbsp <div class="service"><a href=""><div id="name">Daedalus</div></a> - The personal blog of Omnibrel creator Ryan Bacheller</div>
+        &nbsp&nbsp&nbsp&nbsp&nbsp Omnibrel is a content production group started in 2015 with one mission: to provide a hub for affiliated channels/website/services of most any kind
+        without requiring a pre-existing website. What that essentially means is that we will build your website from scratch, if you require it. Naturally any pre-existing
+        website can also very easily be inducted into the Omnibrel family. While we are currently small, extremely small, there is always room to grow.
+      </p>
+      <p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp At present Omnibrel consists of two sites:
+        &nbsp&nbsp&nbsp&nbsp&nbsp <div class="service"><a href="daedalus.herokuapp.com"><div id="name">Daedalus</div></a> - The personal blog of Omnibrel creator Ryan Bacheller</div>
         &nbsp&nbsp&nbsp&nbsp&nbsp <div class="service"><a href="http://www.magistellus-arts.com"><div id="name">Magistellus-Arts</div></a> - The business page for Augusta, Maine based group Magistellus-Arts</div>
       </p>
       <p>
-        Although Omnibrel is not, currently, accepting applications for <a href="">content</a> and <a href="">crew</a>, we soon will! If you would like
-        to be added to the Omnibrel <a href="">Newsletter</a>/<a href="">Mailing-list</a>, please <a href="">sign-up here</a>
+        &nbsp&nbsp&nbsp&nbsp&nbsp Sadly, Omnibrel is not currently accepting applications for <a href="<%= apply_content_url %>">content</a> and
+            <a href="<%= apply_crew_url %>">crew</a>. The current estimate for when these features, along with all other expected functionality, will be rolled out is:
+         March 1st. Consider signing up for the Omnibrel
+            <a href="<%= mailing_newsletter_url %>">Newsletter</a>/<a href="<%= mailing_maillist_url %>">Mailing-list</a> to keep updated.
       </p>
     </div>
   </tr>

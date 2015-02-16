@@ -39,6 +39,16 @@
   src: font-url('the_King__26_Queen_font.ttf') format("truetype");
 }
 
+@font-face {
+  font-family: "Chintzy";
+  src: font_url('chintzy.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Chintzys";
+  src: font_url('chintzys.ttf') format("truetype");
+}
+
 html {
   background: black;
   //background-image: url(image_path("bkgrnd.jpg"));
@@ -55,7 +65,7 @@ html {
   //background-image: url(image_path("_bkgrnd_.jpg"));
   //background-size: 100% 100%;
   width: 1000px;
-  min-width: 750px;
+  min-width: 1000px;
   min-height: 800px;
   border: 6px solid orangered;
   border-radius: 15px;
@@ -75,6 +85,10 @@ html {
 }
 
 #banner {
+  position: relative;
+  float: left;
+  padding-left: 100px;
+
   h2 {
     text-align: center;
     font-style: italic;
@@ -101,7 +115,7 @@ html {
 
   text-align: center;
   background: #000000;
-  border: 6px solid purple;
+  border: 3px solid purple;
   float: none;
 
   p {
@@ -113,8 +127,10 @@ html {
 
 div#menu_wrapper {
   //padding: 0 0 0 250px;
-  margin: auto;
-  width: 37%;
+  padding-left: 100px;
+  //width: 37%;
+  position: relative;
+  float: left;
 }
 
 a:link {
@@ -146,7 +162,7 @@ a:active {
 ._menu {
   position: fixed;
   top: 10px;
-  right: 10px;
+  right: 350px;
   z-index: 9;
 }
 

@@ -8,9 +8,12 @@
 </head>
 <body class="<%= controller.controller_name %>">
 <div class="container">
+  <div class="top">
   <div id="banner">
     <h2>Welcome to Omnibrel</h2>
   </div>
+  <br />
+  <br />
   <div id="menu_wrapper">
     <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
       <li><div class="arrow buttonbg"><a href="<%= landing_index_url %>">Home</a></div></li>
@@ -31,7 +34,10 @@
       </li>
     </ul>
   </div>
-  <%= yield %>
+  </div>
+  <div class="subject">
+    <%= yield %>
+  </div>
 </div>
 <div class="footer">
   <p>Created By: Ryan Bacheller</p>
@@ -45,7 +51,11 @@
             <li><a title="">blank</a></li>
           </ul></li>
       </ul></li>
-    <li><div class="buttonbg"><a class="button_2">user</a></div></li>
+    <li><div class="buttonbg"><a class="button_2">user</a></div>
+      <ul>
+        <li><a href="">Status: 'disabled by admin'</a></li>
+      </ul>
+    </li>
   </ul>
 </div>
 </body>

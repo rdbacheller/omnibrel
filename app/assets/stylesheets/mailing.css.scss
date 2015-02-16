@@ -1,0 +1,63 @@
+// Place all the styles related to the Mailing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table.construction {
+  td {
+    padding: 10px;
+  }
+}
+
+.const_stub {
+  position: relative;
+  width: 900px;
+  margin: 0 50px;
+
+  .construction {
+      position: relative;
+      height: 60px;
+      min-height: 30px;
+      min-width: 100%;
+      border-radius: 25px;
+
+    background-color: rgba(122, 122, 122, .55);
+
+
+    #backer {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+
+        //background-image: url(image_path("wire_mesh.jpg"));
+
+        z-index: -1;
+
+      }
+      #barrier {
+        padding-left: 60px;
+
+        img {
+          position: relative;
+          float: left;
+          margin-top: 15px;
+          margin-left: 10px;
+          margin-right: 10px;
+
+          z-index: 1;
+        }
+
+        h1 {
+          position: relative;
+          float: left;
+          font-family: Chintzys;
+          font-size: 28px;
+
+          color: red;
+          text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+
+          z-index: 10;
+        }
+      }
+    }
+}

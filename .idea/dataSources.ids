@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails omnibrel: development" uuid="35bbd8d8-082b-4f8e-bec0-a9b423c50279">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails omnibrel: test" uuid="cca9df01-2f1e-44ed-8162-d24314c42b61">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails omnibrel: production" uuid="63985007-cd12-4de2-96e6-f64a75fa2a38">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails omnibrel: cucumber" uuid="ae435afc-ff74-4075-8d62-987b7cab4a7e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
